@@ -1,0 +1,24 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    
+    &:not(:last-child) {
+        margin-bottom: 12px;
+    }
+
+    &__label {
+        font-size: 18px;
+        margin-left: 6px;
+        margin-bottom: 6px;
+    }
+
+    &__input {
+        height: 26px;
+        border-radius: 4px;
+        border: 1.8px solid #2A2F36;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

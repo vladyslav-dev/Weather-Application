@@ -1,0 +1,40 @@
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(auto, 22%));
+    justify-content: space-around;
+    grid-row-gap: 25px;
+    grid-column-gap: 12px;
+
+    margin-top: 38px;
+    padding-bottom: 60px;
+
+    max-height: calc(100vh - 230px);
+    overflow: scroll;
+    position: relative;
+
+    &::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background-color: rgb(238, 238, 238);     
+    }
+
+    &::-webkit-scrollbar-corner  {
+        display: none;
+    }
+
+    @media only screen and (max-width: 1140px) {
+        grid-template-columns: repeat(auto-fill, minmax(auto, 28%));
+    }
+
+    @media only screen and (max-width: 870px) {
+        grid-template-columns: repeat(auto-fill, minmax(auto, 35%));
+    }
+
+    @media only screen and (max-width: 595px) {
+        grid-template-columns: repeat(auto-fill, minmax(auto, 50%));
+    }
+}

@@ -1,0 +1,16 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 0px 60px 10px rgba(219, 219, 219, 0.37);
+}
+
+.container {
+    max-width: 1120px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    // border: 1px solid red;
+}

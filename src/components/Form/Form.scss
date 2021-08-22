@@ -1,0 +1,16 @@
+.form-wrapper {
+    background-color: #fff;
+    max-width: 560px;
+    height: 660px;
+    margin: 60px auto 0 auto;
+    padding: 26px 28px;
+    box-sizing: border-box;
+    border-radius: 17px;
+
+    & > h2 {
+        color: #2A2F36;
+        font-weight: bold;
+        font-size: 41px;
+        text-align: center;
+    }
+}
