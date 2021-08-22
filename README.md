@@ -1,4 +1,4 @@
-Spending time ~ 8-13 hours
+Spent time ~ 8-13 hours
 
 ##
 
