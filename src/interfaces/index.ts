@@ -34,13 +34,13 @@ export interface IInput {
 }
 
 export interface IFormData {
-    city: string | "",
-    temperature: number | 0,
-    wind_speed: number | 0,
-    deg: number | 0,
-    clouds_all: number | 0,
-    visibility: number | 0,
-    humidity: number | 0,
+    city: string,
+    temperature: number,
+    wind_speed: number,
+    deg: number,
+    clouds_all: number,
+    visibility: number,
+    humidity: number,
 }
 
 

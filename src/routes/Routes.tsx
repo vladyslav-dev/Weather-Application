@@ -1,16 +1,18 @@
 import React from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
 
-import HomePage from '../pages/HomePage'
-import CreatePage from '../pages/CreatePage'
-import UpdatePage from '../pages/UpdatePage'
+
+
+import Form from '../components/Form'
+import CardList from '../components/CardList'
+
 
 const Routes: React.FC = () => {
     return (
         <Switch>
-            <Route exact path="/home" component={HomePage} />
-            <Route exact path="/create" component={CreatePage} />
-            <Route exact path="/update/:id" component={UpdatePage} />
+            <Route exact path="/home" component={() => <CardList />} />
+            <Route exact path="/create" component={() => <Form type="CREATE" />} />
+            <Route exact path="/update/:id" component={() => <Form type="UPDATE" />} />
             <Redirect to="/home" />
         </Switch>
     )
