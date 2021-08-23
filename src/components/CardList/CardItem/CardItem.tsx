@@ -63,10 +63,6 @@ const CardItem: React.FC<PropTypes> = ({ info, removeHandler }) => {
                     <span>{info.weather.wind.deg}</span>
                 </div>
                 <div className="card__information_row">
-                    <span>Clouds all:</span>
-                    <span>{info.weather.clouds.all}</span>
-                </div>
-                <div className="card__information_row">
                     <span>Visibility:</span>
                     <span>
                         {info.weather.clouds.visibility < 1000 ? "low visibity" : "good visibity"}
