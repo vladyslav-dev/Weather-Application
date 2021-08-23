@@ -1,4 +1,4 @@
-import { IInput } from '../../../interfaces'
+import { IInput } from '../../../types'
 
 export const formFields: IInput[] = [
     {

@@ -1,4 +1,4 @@
-import { IData } from '../interfaces'
+import { IData } from '../types'
 
 export const convertTemperature = (card: IData, convertFunc: (temperature: number) => number): IData => {
     let temperature = card.weather.temperature.actual

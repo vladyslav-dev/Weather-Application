@@ -1,7 +1,7 @@
 import React from 'react'
 import './FormField.scss'
 
-import { IInput } from '../../../interfaces'
+import { IInput } from '../../../types'
 
 type PropTypes = {
     info: IInput,

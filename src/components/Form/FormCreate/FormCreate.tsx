@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { Context } from '../../../context'
 
 import { formFields } from '../helpers/constants'
-import { IFormData } from '../../../interfaces'
+import { IFormData } from '../../../types'
 
 // UI
 import FormField from '../../UI/FormField'

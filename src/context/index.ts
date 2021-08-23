@@ -1,4 +1,4 @@
 import { createContext } from 'react'
-import { IContextProps } from '../interfaces'
+import { IContextProps } from '../types'
 
 export const Context = createContext({} as IContextProps)

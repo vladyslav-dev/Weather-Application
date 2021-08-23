@@ -1,4 +1,4 @@
-export interface IData {
+export type IData = {
     id: string,
     name: string,
     weather: {
@@ -17,7 +17,7 @@ export interface IData {
     }
 }
 
-export interface IContextProps {
+export type IContextProps = {
     data: IData[],
     isCelsius: boolean,
     systemSwitcher: () => void,
@@ -26,14 +26,14 @@ export interface IContextProps {
     updateHandler: (id: string, modifiedCard: IData) => void
 }
 
-export interface IInput {
+export type IInput = {
     key: string,
     name: string,
     label: string,
     type: string
 }
 
-export interface IFormData {
+export type IFormData = {
     city: string,
     temperature: number,
     wind_speed: number,

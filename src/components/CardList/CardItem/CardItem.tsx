@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import './CardItem.scss'
 import { Link } from 'react-router-dom'
-import { IData } from '../../../interfaces'
+import { IData } from '../../../types'
 import { Context } from '../../../context'
 
 // Images

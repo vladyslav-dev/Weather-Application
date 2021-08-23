@@ -3,7 +3,7 @@ import './App.scss';
 import weather from '../weather.json'
 import { Context } from '../context'
 import { useHistory } from "react-router-dom";
-import { IData } from '../interfaces'
+import { IData } from '../types'
 import * as util from '../utils'
 
 import Routes from '../routes'
