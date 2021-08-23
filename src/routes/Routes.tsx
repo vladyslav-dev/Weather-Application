@@ -1,8 +1,6 @@
 import React from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
 
-
-
 import Form from '../components/Form'
 import CardList from '../components/CardList'
 
